@@ -2,7 +2,7 @@
 """
 This script shall download files from URL
 __author__: Afif Al Mamun
-__date__: August, 4, 2020
+__date__: August 4, 2020
 """
 
 import urllib.request

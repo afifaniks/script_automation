@@ -1,6 +1,13 @@
-import zipfile
+#!/usr/bin/env python
+"""
+This script shall download files from URL
+__author__: Afif Al Mamun
+__date__: August 4, 2020
+"""
+
 import os
-import sys
+import zipfile
+
 
 def extract_zip(directory, out_dir):
     dir = os.listdir(directory)
@@ -12,4 +19,5 @@ def extract_zip(directory, out_dir):
             zip_file.extractall(os.path.join(out_dir, dir_name))
 
 
+# Extract all the zip files located in 'zip' directory to 'zip_out' directory
 extract_zip('zip', 'zip_out')

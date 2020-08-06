@@ -2,7 +2,7 @@
 """
 This script will schedule a list of tasks to execute at a given time
 __author__: Afif Al Mamun
-__date__: August, 4, 2020
+__date__: August 4, 2020
 """
 
 import schedule
